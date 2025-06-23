@@ -1,0 +1,13 @@
+tasks.register('downloadDeeplab', Download) {
+    src 'https://storage.googleapis.com/ai-edge/interpreter-samples/image_segmentation/android/deeplab_v3.tflite'
+    dest project.ext.ASSET_DIR + '/deeplab_v3.tflite'
+    overwrite false
+}
+
+tasks.register('downloadEfficientnetLite0Model', Download) {
+    src 'https://storage.googleapis.com/ai-edge/interpreter-samples/image_classification/android/efficientnet_lite0.tflite'
+    dest project.ext.ASSET_DIR + '/efficientnet_lite0.tflite'
+    overwrite false
+}
+
+preBuild.dependsOn downloadDeeplab, downloadEfficientnetLite0Model

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AA</string>
+    <string name="back_button">Back</string>
+    <string name="send">Send</string>
+    <string name="LoadImage">Load image</string>
+    <string name="start">Start</string>
+    <string name="processing">Processing</string>
+    <string name="result">Result</string>
+    <string name="Assistive_Assistant">Assistive Assistant</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_scan">New scan</string>
+    <string name="failed">Failed</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="successful">Successful</string>
+    <string name="none">None</string>
+    <string name="required_for_the_app_to_take_pictures">Required for the app to take pictures!</string>
+    <string name="camera_and_media_permission_required">Camera and media permission required</string>
+    <string name="request_permission">Request permission</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="ImageLoaded">image loaded</string>
+    <string name="TakePhoto">Take photo</string>
+    <string name="request_permissions">Request permissions</string>
+    <string name="internal_tts_error">Internal Text-To-Speech Error</string>
+    <string name="tts_ready">Text-To-Speech is ready</string>
+</resources>
