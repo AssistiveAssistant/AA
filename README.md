@@ -21,5 +21,6 @@ Further, resolution of images may not be too big/small, else pixelation occurs a
 Due to the Architecture and to meet expectations regarding UI, the use-cases(which area partially overlapping / complements) are streamlined into a modern User-Experience.
 
 The **DOCUMENTATION** folder contains all created documents merged into a single file
-The **VIDEO** folder contains the 'presentation'
+
+The **VIDEO** folder contains a lower-resolution video presentation, for a better experience view the video on YouTube: AssistiveAssistant[https://youtu.be/pVKWZzAaG40]
 
