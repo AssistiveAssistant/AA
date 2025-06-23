@@ -10,7 +10,7 @@ To actually run/debug the prototype you additionally have to add a 'virtual devi
 Specifications of the virtual device:
 Whereby a virtual **Pixel 6** and **Pixel 9 Pro** where used for testing, whereby the prior should be preferred.
 
-Further we utilise 2 offline models for segmentation[deeplab_v3.tflite]{https://www.kaggle.com/models/tensorflow/deeplabv3/tfLite} and classification [efficientnet_lite0.tflite]{https://blog.tensorflow.org/2020/03/higher-accuracy-on-vision-models-with-efficientnet-lite.html}, the colour is inferred from the masked image.
+Further we utilise 2 offline models for segmentation [deeplab_v3.tflite](https://www.kaggle.com/models/tensorflow/deeplabv3/tfLite) and classification [efficientnet_lite0.tflite](https://blog.tensorflow.org/2020/03/higher-accuracy-on-vision-models-with-efficientnet-lite.html), the colour is inferred from the masked image.
 
 A few **restrictions** apply:
 Source-Images may neither be too large nor have exotic colour profiles embedded, as this may cause underlying issues in the pipeline.
@@ -22,5 +22,5 @@ Due to the Architecture and to meet expectations regarding UI, the use-cases(whi
 
 The **DOCUMENTATION** folder contains all created documents merged into a single file
 
-The **VIDEO** folder contains a lower-resolution video presentation, for a better experience view the video on YouTube: AssistiveAssistant[https://youtu.be/pVKWZzAaG40]
+The **VIDEO** folder contains a lower-resolution video presentation, for a better experience view the video on YouTube: [AssistiveAssistant](https://youtu.be/pVKWZzAaG40)
 
